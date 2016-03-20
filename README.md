@@ -1,6 +1,6 @@
 ### RUSH v1.4.1
 
-Rush v1.4.1 - [Online Demo](http://huynq.net)
+Rush v1.4.2 - [Online Demo](https://www.4tsai.com)
 
 ---
 
@@ -12,9 +12,11 @@ Rush v1.4.1 - [Online Demo](http://huynq.net)
 
 #### CHANGELOG
 
-**Rush v1.5 - 01/11/2015**
-
-* _In development_
+**Rush v1.4.2 - 2016/03/20**
+- remove widget
+- replace my google analysis
+- make menu simple
+- thanks to the author
 
 **Rush v1.4.1 - 2015/10/17**
 - Use assets from CDN
