@@ -18,7 +18,11 @@
 
     <section class="share">
         <h4>Share this post</h4>
-        <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}"
+        <a class="fa fa-weibo" href="http://service.weibo.com/share/share.php?url={{url absolute="true"}}&title={{encode title}}"
+onclick="window.open(this.href, 'weibo-share', 'width=550,height=235');return false;">
+<span class=""><i class="iconfont icon-weibo"></i></span>
+</a>
+	<a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
             <span class="hidden">Twitter</span>
         </a>
@@ -34,18 +38,3 @@
 
 </footer>
 
-<div class="fb-comments" data-href="{{url absolute='true'}}" data-numposts="10"></div>
-
-{{! Disqus }}
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    //Change 'huynqsblog' to your disqus account
-	var disqus_shortname = 'huynqsblog';
-	(function() {
-		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js?https';
-		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>

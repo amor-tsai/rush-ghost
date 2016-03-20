@@ -2,9 +2,6 @@
 
 {{! List all posts }}
 <main class="content" role="main">
-
-    <div id="htumblr-widget"></div>
-
     {{#foreach posts}}
 
     <article class="{{post_class}} {{#if @first}}first-article{{/if}}">
@@ -23,7 +20,6 @@
             <p>{{excerpt characters="200"}}&hellip;</p>
         </section>
 
-        <div class="post-weather"></div>
         <div class="emoemo">
             <span class="post-emoticon"></span>
         </div>
